@@ -1,0 +1,23 @@
+config:
+  locations:
+    spawn: 'world,0,0,0,0,0'
+    ranking:
+      pvp:
+        kills: 'world,0,0,0,0,0'
+        killstreak: 'world,0,0,0,0,0'
+    npcs:
+      gladiator:
+        location: 'world,0,0,0,0,0'
+        skin: dfc994fc-89f9-45a6-8886-af756ff7c7af
+      simulator:
+        location: 'world,0,0,0,0,0'
+        skin: dfc994fc-89f9-45a6-8886-af756ff7c7af
+      soup:
+        location: 'world,0,0,0,0,0'
+        skin: dfc994fc-89f9-45a6-8886-af756ff7c7af
+      uhc:
+        location: 'world,0,0,0,0,0'
+        skin: dfc994fc-89f9-45a6-8886-af756ff7c7af
+      stats:
+        location: 'world,0,0,0,0,0'
+        skin: dfc994fc-89f9-45a6-8886-af756ff7c7af

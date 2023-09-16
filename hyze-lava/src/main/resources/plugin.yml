@@ -1,0 +1,4 @@
+name: hyze-lava
+version: '${version}'
+main: com.toddydev.lava.Main
+author: Toddy

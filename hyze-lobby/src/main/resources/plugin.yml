@@ -1,0 +1,9 @@
+name: hyze-lobby
+version: '${version}'
+main: com.toddydev.lobby.Lobby
+author: Toddy
+depend:
+  - hyze-core
+commands:
+  setar:
+  build:

@@ -1,0 +1,4 @@
+name: hyze-fps
+version: '${version}'
+main: com.toddydev.fps.Main
+author: Toddy

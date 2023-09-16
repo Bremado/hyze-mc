@@ -1,0 +1,12 @@
+name: hyze-login
+version: '${version}'
+main: com.toddydev.auth.AuthPlugin
+author: Toddy
+depend:
+  - hyze-core
+commands:
+  login:
+    aliases: [logar, auth]
+  register:
+    aliases: [registrar, rg]
+  setar:

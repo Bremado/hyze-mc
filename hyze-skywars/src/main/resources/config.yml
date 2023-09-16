@@ -1,0 +1,10 @@
+arenas:
+  example:
+    max: 8
+    min: 2
+    type: NORMAL
+    subtype: SOLO
+    lobby: world,0,0,0,0,0
+    spawns:
+      - 'world,0,0,0,0,0'
+      - 'world,0,1,1,0,0'

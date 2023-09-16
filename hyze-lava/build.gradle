@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group 'com.toddydev.lava'
+version '1.0-BETA'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+
+    maven { url 'https://jitpack.io' }
+    maven { url 'https://oss.sonatype.org/content/groups/public/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+dependencies {
+    compileOnly files(
+            "D:/TUDO/REMAKES/lothusmc-depends/dytanicspigot.jar",
+            "D:/hyze-mc/hyze-core/build/libs/hyze-core-1.0-BETA.jar"
+    )
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+}
+
+
+shadowJar {
+    archiveFileName = "hyze-lava-${version}.jar"
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+processResources {
+    def props = [version: version]
+
+    inputs.properties props
+
+    filteringCharset 'UTF-8'
+
+    filesMatching("*.yml") {
+        expand props
+    }
+}

@@ -1,0 +1,4 @@
+name: hyze-arena
+version: '${version}'
+main: com.toddydev.arena.Main
+author: Toddy

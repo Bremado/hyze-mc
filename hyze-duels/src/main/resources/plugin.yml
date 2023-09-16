@@ -1,0 +1,4 @@
+name: hyze-duels
+version: '${version}'
+main: com.toddydev.duels.Main
+author: Toddy

@@ -1,0 +1,4 @@
+name: hyze-skywars
+version: '${version}'
+main: 'com.toddydev.skywars.Instance'
+author: Toddy

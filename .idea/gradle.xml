@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/hyze-arena" />
+            <option value="$PROJECT_DIR$/hyze-bedwars" />
+            <option value="$PROJECT_DIR$/hyze-core" />
+            <option value="$PROJECT_DIR$/hyze-duels" />
+            <option value="$PROJECT_DIR$/hyze-fps" />
+            <option value="$PROJECT_DIR$/hyze-lava" />
+            <option value="$PROJECT_DIR$/hyze-lobby" />
+            <option value="$PROJECT_DIR$/hyze-lobby-duels" />
+            <option value="$PROJECT_DIR$/hyze-lobby-pvp" />
+            <option value="$PROJECT_DIR$/hyze-login" />
+            <option value="$PROJECT_DIR$/hyze-skywars" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
